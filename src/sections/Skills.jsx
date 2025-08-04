@@ -35,54 +35,31 @@ const Skills = () => {
    h-[3px] w-20'></div>
 
  
-      
-        <div data-aos="zoom-in" data-aos-delay= "600"  className="flex flex-wrap items-center justify-center gap-4">
-            <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMongodb   className='text-7xl text-green-500 '/>
-             <h1 className="text-gray-300  text-center text-2xl">MongoDB</h1>
-            </div>
-             <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiExpress className='text-7xl text-white '/>
-                <h1 className="text-gray-300  text-center text-2xl">ExpressJs</h1>
-            </div>
-             <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiReactjsLine  className='text-7xl text-cyan-400 '/>
-                <h1 className="text-gray-300  text-center text-2xl">React</h1>
-            </div>
-             <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs  className='text-7xl text-white '/>
-                 <h1 className="text-gray-300  text-center text-2xl">Node</h1>
-            </div>
-             <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiJavascript  className='text-7xl text-yellow-400 '/>
-                 <h1 className="text-gray-300  text-center text-2xl">Javascript</h1>
-            </div>
-             <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiTypescript   className='text-7xl text-blue-400 '/>
-                 <h1 className="text-gray-300  text-center text-2xl">Typescript</h1>
-            </div>
-            <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMysql   className='text-7xl text-cyan-400 '/>
-                 <h1 className="text-gray-300  text-center text-2xl">Javascript</h1>
-            </div>
-            <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiCss3  className='text-7xl text-cyan-400 '/>
-                 <h1 className="text-gray-300  text-center text-2xl">CSS</h1>
-            </div>
-            <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-               <SiTailwindcss className='text-7xl  text-cyan-400 '/>
-                <h1 className="text-gray-300  text-center text-2xl">Javascript</h1>
-            </div>
-            <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaGitAlt  className='text-7xl text-orange-400 '/>
-                 <h1 className="text-gray-300  text-center text-2xl">git</h1>
-            </div>
-               <div className ="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiHtml5  className='text-7xl text-cyan-400 '/>
-                 <h1 className="text-gray-300  text-center text-2xl">HTML</h1>
-            </div>
-        </div>
-    
+
+<div data-aos="zoom-in" data-aos-delay="700" className="flex flex-wrap items-center justify-center gap-4">
+  {[
+    { icon: <SiMongodb className='text-7xl text-green-500' />, name: 'MongoDB' },
+    { icon: <SiExpress className='text-7xl text-white' />, name: 'ExpressJs' },
+    { icon: <RiReactjsLine className='text-7xl text-cyan-400' />, name: 'React' },
+    { icon: <FaNodeJs className='text-7xl text-white' />, name: 'Node' },
+    { icon: <SiJavascript className='text-7xl text-yellow-400' />, name: 'JavaScript' },
+    { icon: <SiTypescript className='text-7xl text-blue-400' />, name: 'TypeScript' },
+    { icon: <SiMysql className='text-7xl text-cyan-400' />, name: 'MySQL' },
+    { icon: <SiCss3 className='text-7xl text-cyan-400' />, name: 'CSS' },
+    { icon: <SiTailwindcss className='text-7xl text-cyan-400' />, name: 'Tailwind' },
+    { icon: <FaGitAlt className='text-7xl text-orange-400' />, name: 'Git' },
+    { icon: <DiHtml5 className='text-7xl text-cyan-400' />, name: 'HTML' },
+  ].map((skill, index) => (
+    <div
+      key={index}
+      className="w-32 h-32 sm:w-36 sm:h-36 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4"
+    >
+      {skill.icon}
+      <h1 className="text-gray-300 text-center text-sm sm:text-xl mt-2">{skill.name}</h1>
+    </div>
+  ))}
+</div>
+   
     </div>
    
 

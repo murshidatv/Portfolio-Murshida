@@ -36,7 +36,7 @@ const Home = () => {
       className='lg:w-2/5 w-full relative flex justify-center items-center'>
 
     <img src={hero} alt = "hero image" className='lg-w-[290px] 
-    w-full lg:h-[430px] h-[430px] rounded-lg relative z-20'/>
+    w-full lg:h-[480px] h-[480px] rounded-lg relative z-20'/>
     <img src={design} alt="" className='absolute -top-7 right-7 rounded-lg z-10 w-12 lg:w-auto'/>
   </div>
 </div>
