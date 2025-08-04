@@ -37,7 +37,7 @@ const Footer = () => {
       
       </div>
       </a>
-        <a href="www.linkedin.com/in/murshida-tv"
+        <a href="https://www.linkedin.com/in/murshida-tv/"
          target="_blank" rel="noopener noreferrer">
        <div className='bg-red-900 hover:bg-[#2f2f2f]
       rounded-full p-3 cursor-pointer'>
