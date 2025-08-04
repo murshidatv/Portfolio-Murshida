@@ -18,6 +18,8 @@ const Footer = () => {
 
   return (
    <div>
+    <p className='text-gray-300 text-[15px] text-center 
+      font-poppins leading-8 '>Let’s connect on social media!</p>
     <div data-aos="zoom-in" data-aos-delay="400"id="social-icons"
     className='w-full flex justify-center items-center gap-3
     mt-6'>
@@ -54,10 +56,10 @@ const Footer = () => {
       
       </div>
       </a>
+     
     </div>
-    <p className='text-gray-300 text-[15px] text-center 
-      font-poppins leading-8 py-7'>Copyright 2005,All Rights Reserved</p>
     
+     
     
     <div id='icon-box' className='bg-red-900 text-white p-3 rounded-full
      hover:bg-black hover:text-red-900 cursor-pointer fixed bottom-7
