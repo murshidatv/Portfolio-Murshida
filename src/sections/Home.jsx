@@ -19,14 +19,14 @@ const Home = () => {
       <div> 
         <div className='lg:w-3/5 w-full flex-col justify-center items-start gap-8'>
         <h1 data-aos="zoom-in" className='text-red-900 lg:text-3xl text-xl font-semibold font-poppins '>
-          Hi ,I am Murshida</h1></div>
+          Hi,I'm Murshida</h1></div>
       
         <h1 data-aos="zoom-in" data-aos-delay= "200"  className='text-white text-5xl 
         font-semibold font-poppins py-5'>Full Stack Developer</h1>
       <p data-aos="zoom-in" data-aos-delay= "400"  className='text-gray-300 lg:text-xl text-lg font-poppins '>
         Tech enthusiast who enjoys building clean, responsive web apps <br></br>
         with the MERN stack. With a B.Tech in IT and a love for solving problems,
-         <br></br>I’m always up for learning and turning ideas into real-world solutions.
+        <br></br>I’m always up for learning and turning ideas into real-world solutions.
 
 </p>
        
