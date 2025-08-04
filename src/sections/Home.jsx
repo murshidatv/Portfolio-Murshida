@@ -19,7 +19,7 @@ const Home = () => {
       <div> 
         <div className='lg:w-3/5 w-full flex-col justify-center items-start gap-8'>
         <h1 data-aos="zoom-in" className='text-red-900 lg:text-3xl text-xl font-semibold font-poppins '>
-          Hi,I'm Murshida</h1></div>
+          Hi, I'm Murshida</h1></div>
       
         <h1 data-aos="zoom-in" data-aos-delay= "200"  className='text-white text-5xl 
         font-semibold font-poppins py-5'>Full Stack Developer</h1>
