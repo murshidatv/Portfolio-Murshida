@@ -103,8 +103,7 @@ const Projects = () => {
             className="absolute -top-7 right-7 rounded-lg z-10 w-12 lg:w-auto"
           />
            <div className='flex gap-4 mt-4'>
-    
-      <a
+    {/*--
         href= "https://github.com/murshidatv/ecommerce"
         target='_blank'
         rel='noopener noreferrer'
@@ -119,7 +118,8 @@ const Projects = () => {
         className='bg-red-900 text-white px-3 py-1 rounded hover:bg-gray-600 text-sm transition'
       >
         Live Link Backend
-      </a>
+      </a> */}
+   
         <a
         href= "https://github.com/murshidatv/ecommerce/"
         target='_blank'
