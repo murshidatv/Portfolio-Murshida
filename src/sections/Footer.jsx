@@ -1,5 +1,5 @@
 
-import React,{useEffect} from 'react'
+import React,{useState, useEffect} from 'react'
 import { FaFacebook, FaGithub } from 'react-icons/fa6';
 import { RiInstagramFill } from 'react-icons/ri';
 import { FaLinkedin,FaArrowUp } from 'react-icons/fa6';
@@ -7,15 +7,26 @@ import { Link } from 'react-scroll'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 const Footer = () => {
+  const [showArrow, setShowArrow] = useState(false);
 
   useEffect(() =>{
     AOS.init({
       duration: 800,
       delay:200,
       once:false,
-    })
-  },[]);
+    });
+     const handleScroll = () => {
+      if (window.scrollY > 500) {
+        setShowArrow(true);
+      } else {
+        setShowArrow(false);
+      }
+    };
 
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+ 
   return (
    <div>
     <p className='text-gray-300 text-[15px] text-center 
@@ -59,7 +70,7 @@ const Footer = () => {
      
     </div>
     
-     
+      {showArrow && (
     
     <div id='icon-box' className='bg-red-900 text-white p-3 rounded-full
      hover:bg-black hover:text-red-900 cursor-pointer fixed bottom-7
@@ -69,6 +80,7 @@ const Footer = () => {
     <FaArrowUp className='size-7 '/>
         </Link>
     </div>
+    )}
     </div>
     
   )

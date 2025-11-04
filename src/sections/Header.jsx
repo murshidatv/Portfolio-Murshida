@@ -80,7 +80,7 @@ const Header = () => {
     { name: 'Home', to: 'home' },
     { name: 'About', to: 'home' },
     { name: 'Projects', to: 'projects' },
-    { name: 'MiniProjects', to: 'miniprojects' },
+    { name: 'Mini Projects', to: 'miniprojects' },
     { name: 'Skills', to: 'skills' },
     { name: 'Contact', to: 'contactform' },
   ];

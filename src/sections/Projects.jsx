@@ -27,7 +27,7 @@ const Projects = () => {
         className="text-4xl uppercase text-white 
    font-poppins font-semibold"
       >
-        Project
+        Projects
       </h1>
       <div
         data-aos="zoom-in"
