@@ -212,7 +212,7 @@ Deployment: Vercel (Frontend), Render (Backend)<br></br>
         rel='noopener noreferrer'
         className='bg-red-900 text-white px-3 py-1 rounded hover:bg-gray-600 text-sm transition'
       >
-        Live Link Front end
+        Live Application(User/Patient)
       </a>
         <a
         href= "https://doctor-in-admin.vercel.app/"
@@ -220,7 +220,7 @@ Deployment: Vercel (Frontend), Render (Backend)<br></br>
         rel='noopener noreferrer'
         className='bg-red-900 text-white px-3 py-1 rounded hover:bg-gray-600 text-sm transition'
       >
-        Live Link Backend
+        Dashboard(Admin/Doctor)
       </a>
         <a
         href= "https://github.com/murshidatv/Doctor_in/"
